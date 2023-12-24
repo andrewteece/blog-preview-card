@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;800;900&display=swap');
+
+/* CSS Custome Properties */
+
+:root {
+
+    --ff-primary: 'Figtree', sans-serif;
+
+    --fs-xsm: .75rem; /* 12px */
+    --fs-sm: .875rem /* 14px */
+    --fs-base: 1rem /* 16px */
+    --fs-md: 1.25rem /* 20px */
+    --fs-lg: 1.5rem /* 24px */
+
+    --clr-primary-400: hsl(47, 88%, 63%); 
+
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(0, 0%, 50%);
+    --clr-neutral-900: hsl(0, 0%, 7%);
+
+    --fw-500: 500;
+    --fw-800: 800;
+}
+
+/* CSS Basic Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
